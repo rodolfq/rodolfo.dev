@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">rodolfo dev.</string>
+    <string name="text_systemsat">Systemsat</string>
+    <string name="texto_aplicativos">Aplicativos</string>
+    <string name="text_contatos">Contatos</string>
+
+    <string name="whatsapp">Whatsapp</string>
+    <string name="wpp_suporte"><a href="https://wa.me/+5521991778567">(21) 9 9177-8567</a></string>
+    <string name="linkLinkedin"><a href="https://www.linkedin.com/in/rodolfo-q/">Eu estou no linkedin!</a></string>
+    <string name="github"><a href="https://github.com/rodolfq/">Da uma olhada!</a></string>
+    <string name="sitessat"><a href="https://systemsat.com.br/">systemsat.com.br</a></string>
+
+
+    <string name="linkCalculinha"><a href="https://github.com/rodolfq/Calculinha/raw/master/Calculinha.apk">Baixar</a></string>
+    <string name="apresentacao1">Olá, me chamo </string>
+    <string name="apresentacao2">\nCriei esse app para colocar em prática meus estudos com a
+        linguage kotlin e desenvolvimento de apps mobile.\n\n Com o tempo irei atualizar e
+        organizar melhor as coisas. \n Voce pode me encontrar na aba de contatos. \n\n</string>
+    <string name="myname"> Rodolfo Quintanilha</string>
+</resources>

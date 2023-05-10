@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/Azul"
+                android:gravity="bottom|center"
+                android:padding="16dp"
+                android:text="Onde me encontrar ?"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_wpp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="8dp"
+                android:text="@string/whatsapp"
+                android:textColor="@color/Azul"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:drawableEnd="@drawable/ic_whatsapp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/intro" />
+
+            <TextView
+                android:id="@+id/text_desc_whatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:text="Me encontre no Whatsapp"
+                app:layout_constraintStart_toStartOf="@+id/text_wpp"
+                app:layout_constraintTop_toBottomOf="@+id/text_wpp" />
+
+            <TextView
+                android:id="@+id/text_num_whatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/wpp_suporte"
+                android:textColorLink="#757575"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/text_desc_whatsapp"
+                app:layout_constraintTop_toBottomOf="@+id/text_desc_whatsapp" />
+
+            <TextView
+                android:id="@+id/text_linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="18dp"
+                android:drawableRight="@drawable/linkedin"
+                android:drawablePadding="8dp"
+                android:text="Linkedin"
+                android:textColor="@color/Azul"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/text_num_whatsapp"
+                app:layout_constraintTop_toBottomOf="@+id/text_num_whatsapp" />
+
+            <TextView
+                android:id="@+id/text_desc_linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:text="Rede social ?"
+                app:layout_constraintStart_toStartOf="@id/text_linkedin"
+                app:layout_constraintTop_toBottomOf="@+id/text_linkedin" />
+
+            <TextView
+                android:id="@+id/text_num_linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/linkLinkedin"
+                android:textColorLink="#757575"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/text_desc_linkedin"
+                app:layout_constraintTop_toBottomOf="@+id/text_desc_linkedin" />
+
+
+            <TextView
+                android:id="@+id/text_github"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="18dp"
+                android:drawableRight="@drawable/ic_github"
+                android:drawablePadding="8dp"
+                android:text="Github"
+                android:textColor="@color/Azul"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/text_num_linkedin"
+                app:layout_constraintTop_toBottomOf="@+id/text_num_linkedin" />
+
+            <TextView
+                android:id="@+id/text_desc_github"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:text="Também tenho outros projetos no github"
+                app:layout_constraintStart_toStartOf="@id/text_github"
+                app:layout_constraintTop_toBottomOf="@+id/text_github" />
+
+            <TextView
+                android:id="@+id/text_num_github"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/github"
+                android:textColorLink="#757575"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/text_desc_github"
+                app:layout_constraintTop_toBottomOf="@+id/text_desc_github" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_margin="26dp"
+                android:text=" "
+                android:textColorLink="#757575"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_num_github" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</RelativeLayout>

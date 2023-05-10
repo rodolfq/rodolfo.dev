@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+
+        //remover splash screen padrão android 12
+        <item name="android:windowIsTranslucent">true</item>
+
+
+        <item name="windowSplashScreenBackground">#FBFDFD</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logonova</item>
+        <item name="postSplashScreenTheme">@style/Theme.Ssx_project02</item>
+
+
+    </style>
+</resources>
