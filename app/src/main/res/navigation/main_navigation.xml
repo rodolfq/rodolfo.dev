@@ -10,14 +10,12 @@
         android:name="com.hellodev.ssx_project02.fragments.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
+
         <action
             android:id="@+id/action_splashFragment_to_homeFragment"
-            app:destination="@id/navigation"
-            app:popUpTo="@id/splashFragment"
-            app:popUpToInclusive="true"/>
+            app:destination="@id/homeFragment" />
     </fragment>
-    <navigation android:id="@+id/navigation"
-        app:startDestination="@id/homeFragment">
+
         <fragment
             android:id="@+id/homeFragment"
             android:name="com.hellodev.ssx_project02.fragments.HomeFragment"
@@ -41,5 +39,3 @@
             android:label="ContactsFragment"
             tools:layout="@layout/contact_fragment" />
     </navigation>
-
-</navigation>
