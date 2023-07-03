@@ -7,7 +7,7 @@ Desenvolvi esse app para reunir os demais projetos de estudo que desenvolvo.<br>
     Existem melhorias a serem realizadas, com o tempo irei melhora-lo<br><br>
 
   
- ![final](https://github.com/rodolfq/rodolfo.dev/assets/49276562/c2d486ce-340b-4ede-ac84-23774bc3f449)
+ ![final](https://github.com/rodolfq/rodolfo.dev/assets/49276562/e8707549-7bb2-4100-81ec-402563794991)
 
     
  <br><br>
